@@ -1,0 +1,167 @@
+aside {
+    float:left;
+    margin-right: 12px;
+    padding-right:3em;
+  }
+  
+  .hamburger {
+    margin-right:12px;
+  }
+  
+  .title {
+    display:flex;
+    padding-bottom: 2em;
+    font-size:24px;
+  }
+  /* 왼쪽 사이드 메뉴 hover */
+  .menu1 div:hover {
+    background-color: lightgrey;
+    cursor:pointer;
+  }
+  
+  .menu2 div:hover {
+    background-color: lightgrey;
+    cursor:pointer;
+  }
+  
+  .menu3 div:hover {
+    background-color: lightgrey;
+    cursor:pointer;
+  }
+  
+  .menu4 div:hover {
+    background-color: lightgrey;
+    cursor:pointer;
+  }
+  /* 왼쪽 사이드 메뉴 테두리 여백 값 */
+  .menu1 div {
+    padding: 8px;
+  }
+  
+  .menu2 div {
+    padding: 8px;
+  }
+  
+  .menu3 div {
+    padding: 8px;
+  }
+  
+  .menu4 div {
+    padding: 8px;
+  }
+  
+  .menu1, .menu2, .menu3, .menu4 {
+    border-bottom: 1px lightgrey solid;
+  }
+  
+  .more {
+    color:grey;
+  }
+
+  .search {
+    padding-left:4em;
+  }
+
+  .searchbox {
+    width: 40vw;
+    padding:0.4em;
+    border: none;
+  }
+  
+  table, tr, td {
+    border:1px lightgrey solid;
+    margin-left: 6em;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  
+  .search td {
+    text-align: center;
+  }
+
+  .searchbox:focus {
+    outline: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1em;
+    border-bottom: 1px lightgrey solid;
+  }
+  
+  .icons {
+    display:flex;
+    align-items: center;
+  }
+
+  .icons div {
+    margin-right: 16px;
+    font-size:20px;
+  }
+  
+  .profile {
+    display:flex;
+    align-items:center;
+    background-color: palevioletred;
+    height:2em;
+    padding:0.1em;
+    border-radius: 50%;
+    color: white;
+  }
+
+  nav {
+    display:flex;
+    justify-content: center;
+    border-bottom: 1px lightgrey solid;
+  }
+  
+  nav button {
+    margin:12px 0;
+    margin-right:8px;
+    padding:4px 12px;
+    border-radius:36px;
+    border:1px lightgrey solid;
+  }
+  
+  nav button:hover {
+    background-color: rgba(213,213,213,0.9);
+    cursor:pointer;
+  }
+  
+  .searchbox {
+    font-size: 18px;
+  }
+/* 광고 */
+.promotion {
+  margin-left: 14.5em;
+  height:50vh;
+  border: 1px red solid;
+}
+
+.metadata {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.data {
+  font-size: 40px;
+  font-weight:700;
+  margin-top: 0.5em;
+}
+
+.btn {
+  margin-top: 3em;
+  padding:1em;
+  border: 2px blue solid;
+  color: blue;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor:pointer;
+}
+
+
