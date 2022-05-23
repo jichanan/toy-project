@@ -8,7 +8,7 @@ aside {
     margin-right:12px;
   }
   
-  .title {
+  aside .title {
     display:flex;
     padding-bottom: 2em;
     font-size:24px;
@@ -136,6 +136,7 @@ aside {
   }
 /* 광고 */
 .promotion {
+  position:relative;
   margin-left: 14.5em;
   height:50vh;
 }
@@ -163,4 +164,26 @@ aside {
   cursor:pointer;
 }
 
+.flower {
+  position:absolute;
+  width:30vw;
+  height:40vh;
+  bottom:50px;
+  left: 500px;
+}
+/* 영상컨텐츠 */
+.title {
+  font-size: 16px;
+  padding:0;
+  margin:0;
+}
 
+.sing {
+  width:200px;
+  height:200px;
+}
+
+.views {
+  font-size:12px;
+  color: grey;
+}
