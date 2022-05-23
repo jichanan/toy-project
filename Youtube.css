@@ -183,6 +183,15 @@ aside {
   height:200px;
 }
 
+.content-1 {
+  float:left;
+}
+
+.content-1:hover {
+  transform:scale(1.15);
+  transition: 0.4s;
+}
+
 .views {
   font-size:12px;
   color: grey;
